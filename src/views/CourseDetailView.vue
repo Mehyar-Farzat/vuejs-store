@@ -7,7 +7,7 @@
       <div class="col-lg-6">
         <h2>{{ course.name }}</h2>
         <h4>{{ course.category }}</h4>
-        <p>{{ course.prise }}$</p>
+        <p>{{ course.price }}$</p>
         <button class="btn btn-secondary">Enroll</button>
       </div>
     </div>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { course, courses } from '../tem-data'
+  import { course, courses } from '../tem-data'
   export default {
     name: 'CourseDetailPage',
     data(){

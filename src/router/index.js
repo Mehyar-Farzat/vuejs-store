@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import CoursesViewVue from '../views/CoursesView.vue'
+import CoursesViewVue from '@/views/CoursesView.vue'
 
 
 const router = createRouter({
@@ -12,7 +12,7 @@ const router = createRouter({
     },
     {
       path: '/:course_id',
-      name: 'course-detail',
+      name: 'courses-detail',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
