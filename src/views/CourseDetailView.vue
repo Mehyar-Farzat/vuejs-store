@@ -15,6 +15,7 @@
 </template>
 
 <script>
+import { course } from '../tem-data'
   export default {
     name: 'CourseDetailPage'
   }
