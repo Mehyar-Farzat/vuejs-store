@@ -6,6 +6,7 @@
       <div class="card-body">
         <h5 class="card-title">{{course.name}}</h5>
         <p>{{ course.category }}</p>
+        <p>{{ course.price }} $</p>
         <RouterLink class="btn btn-primary" to="/course-detail">Course Detail</RouterLink>
       </div>
     </div>
