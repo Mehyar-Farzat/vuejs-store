@@ -11,7 +11,8 @@ export const courses = [
         name: 'Python Basics' ,
         category: 'Web Development' ,
         category_id : 1 ,
-        image: img1
+        image: img1 ,
+        price: 100
     },
 
     {
@@ -19,20 +20,23 @@ export const courses = [
         name: 'Html & Css Basics' ,
         category: 'Software Development' ,
         category_id : 2 ,
-        image: img2
+        image: img2 ,
+        price: 120
     },
     {
         id:3 ,
         name: 'AI Development' ,
         category: 'Machine Learning' ,
         category_id : 3 ,
-        image: img3
+        image: img3 ,
+        price: 150
     },
     {
         id:4 ,
         name: 'Ios & Android Basics' ,
         category: 'Mobile Development' ,
         category_id : 4 ,
-        image: img4
+        image: img4 ,
+        price: 100
     },
 ]
