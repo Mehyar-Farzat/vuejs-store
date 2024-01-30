@@ -10,6 +10,7 @@
         <li class="nav-item">
             <RouterLink class="nav-link active" to="/">Courses</RouterLink>
             <span class="visually-hidden">(current)</span>
+
         </li>
       </ul>
     </div>
