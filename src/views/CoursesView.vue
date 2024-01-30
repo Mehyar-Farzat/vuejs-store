@@ -14,6 +14,7 @@
 
   import CourseList from '@/components/CoursList.vue'
   import CourseFilter from '@/components/CourseFilter.vue'
+  
   export default {
     name: 'CoursesPage',
     components:{
