@@ -1,13 +1,16 @@
 <template>
-  <h2>Courses Page</h2>
-  <div>
-    <CourseList/>
+  
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3">
+        <CourseFilter/>
+      </div>
+      <div class="col-lg-9">
+        <CourseList/>
+      </div>
+    </div>
   </div>
-
-  <div>
-    <CourseFilter/>
-  </div>
-
+  
 </template>
 
 <script>
