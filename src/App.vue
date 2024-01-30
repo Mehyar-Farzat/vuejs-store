@@ -1,22 +1,19 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-
-</script>
 
 <template>
-  <header>
-    
-
-    <div class="wrapper">
-      
-      <nav>
-        <RouterLink to="/">Courses</RouterLink>
-        <RouterLink to="/course-detail">Course Detail</RouterLink>
-      </nav>
-    </div>
-  </header>
-
+  <navbar/>
   <RouterView />
 </template>
 
+<script>
+
+import { RouterLink, RouterView } from 'vue-router'
+import navbar from './components/navbar.vue';
+
+export default {
+  name: 'App',
+  components: {
+    navbar
+  }
+}
+</script>
 
