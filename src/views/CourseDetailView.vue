@@ -15,7 +15,7 @@
 </template>
 
 <script>
-  import { course, courses } from '../tem-data'
+  import { courses } from '../tem-data'
   export default {
     name: 'CourseDetailPage',
     data(){
