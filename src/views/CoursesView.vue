@@ -17,6 +17,7 @@
 
   import CourseList from '@/components/CoursList.vue'
   import CourseFilter from '@/components/CourseFilter.vue'
+  import { courses } from '../tem-data'
   
   export default {
     name: 'CoursesPage',
