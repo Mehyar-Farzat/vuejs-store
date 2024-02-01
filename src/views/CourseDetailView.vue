@@ -1,14 +1,14 @@
 <template>
   <div class="container">
     <div class="row my-5">
-      <div class="col-lg-6">
-        <img :src="course.image" class="img-fluid" alt="">
+      <div class="col-lg-3">
+        <img :src="course.image" class="img-fluid"  alt="">
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-9">
         <h2>{{ course.name }}</h2>
-        <h4>{{ course.category }}</h4>
+        <h5>{{ course.category }}</h5>
         <p>{{ course.price }}$</p>
-        <button class="btn btn-secondary">Enroll</button>
+        <button type="button" class="btn btn-secondary mt-4 ">Enroll</button>      
       </div>
     </div>
   </div>
